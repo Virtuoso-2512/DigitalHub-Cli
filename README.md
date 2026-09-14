@@ -2,7 +2,7 @@
 
 A modern Single Page Application (SPA) frontend built with **React**. This application communicates with a backend REST API to deliver interactive web client functionalities.
 
-You can check the working demo of the App at this google drive link (BITS Email reqd.) : (https://drive.google.com/file/d/1NGlNfttvVfse-_GJPId1QUglju2LLgJf/view?usp=drive_link) [https://drive.google.com/file/d/1NGlNfttvVfse-_GJPId1QUglju2LLgJf/view?usp=drive_link]
+You can check the working demo of the App at this google drive link (BITS Email reqd.) : https://drive.google.com/file/d/1NGlNfttvVfse-_GJPId1QUglju2LLgJf/view?usp=drive_link
 
 ***Note- The App may not work always due to complex configuration and since it runs on free instances with considerable downtime.***
 
@@ -40,7 +40,7 @@ Follow these steps to set up and run the client application locally.
 1. Clone the Repository
 
 ```Bash
-git clone [https://github.com/Virtuoso-2512/DigitalHub-Cli.git](https://github.com/Virtuoso-2512/DigitalHub-Cli.git) 
+git clone https://github.com/Virtuoso-2512/DigitalHub-Cli.git
 cd DigitalHub-Cli
 ```
 
