@@ -1,0 +1,129 @@
+.brander {
+    width: 100vw;
+	height: 10vh;
+}
+
+.brander2 {
+    width: 30vw;
+	margin: auto;
+    height: 80vh;
+	padding-top: 10vh;
+	border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shadow {
+    --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / .1), 0 1px 2px -1px rgb(0 0 0 / .1);
+    --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+#forgotspan:hover{
+	cursor: pointer;
+}
+
+.brr3 { margin-top: 2vh;}
+/* .brr3 { margin-top: 26vh; } */
+
+.brr2 {
+    display: flex;
+    /* display: none; */
+    flex-direction: row;
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+    width: fit-content;
+    align-items: center;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Caption text */
+.text {
+	font-family: "Nunito";
+	font-weight: bolder;
+	font-size: 18px;
+	width: 100%;
+}
+
+.makeover {
+	background: #666;
+	border-radius: 6px;
+	position: absolute;
+	bottom: 24px;
+	left: 24px;
+	max-width: 380px;
+	box-shadow: rgb(32 1 97 / 13%) 0px 8px 39px;
+	padding: 18px 30px;
+	z-index: 99;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+
+
+/*The dots/bullets/indicators */
+.dot {
+	cursor: pointer;
+	height: 5px;
+	width: 25px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 5px;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.dot:hover { background-color: #555 }
+
+.Loginbox span,
+#login_footer a {
+	background: var(--gradient);
+	color: var(--color);
+	border: none;
+	border-radius: 10px;
+	font-size: 16px;
+	padding: 10px 15px;
+	max-width: 100%;
+	width: fit-content;
+	margin: 5px 10px;
+	transition: 0.3s;
+	cursor: pointer;
+	background: rgba(0, 0, 0, 0.05);
+}
+
+#login_footer a {
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.Loginbox span:hover,
+#login_footer a:hover {
+	background: rgba(0, 0, 0, 0.2)
+}
+
+/* Fading animation */
+.fade {
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@keyframes fade {
+	from { opacity: .4 }
+	to { opacity: 1 }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+	.prev, .next, .text { font-size: 11px }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 900px) {
+    .brr2 { display: flex; }
+    .brr3 { margin-top: 8vh; }
+}

@@ -1,0 +1,131 @@
+.TopMain{
+  box-sizing: border-box;
+  font-family: "Nunito" , sans-serif;
+  color: var(--color);
+  background: var(--background);
+  height: 90.5%;
+  top: 75px;
+  width: 75px;
+  position: fixed;
+  left: 0;
+  padding: 10px;
+  z-index: 100;
+  transition: all 0.3s ease;
+}
+
+.TopMain{
+  height: 75px;
+  top: 0;
+  width: 100%;
+  color: var(--color);
+  padding: 0 15px;
+  background: var(--background);
+  transition: height 0.4s;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.TopMain .status{
+  border-radius: 25px;
+  font-size: 14px;
+  width: 120px;
+  color: var(--color);
+  height: 35px;
+  padding: 0 10px;
+  margin: 0 20px;
+  border-radius:25px;
+  display: flex;
+  background: var(--gradient-light);
+  justify-content: center;
+  align-items: center;
+  transition: all 0.25s ease-in;
+}
+
+.TopMain .status.active,.TopMain .status:hover, .TopMain .profile.active,.TopMain .profile:hover{
+  border-radius:0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#profile-dropdown a:hover, #status-dropdown span:hover, #status-dropdown .sel{ background:  var(--gradient) }
+
+#profile-dropdown{
+  height: fit-content;
+  padding: 5px 0;
+  top: 60px;
+  width: 45px;
+  background: var(--gradient-light);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: fixed;
+  right: 15px;
+  display: flex;
+  flex-direction: column;
+  transition: height 0.25s ease-in;
+}
+
+#status-dropdown{
+  
+  height: fit-content;
+  padding: 5px 0;
+  position: fixed;
+  right: 5px;
+  display: flex;
+  flex-direction: column;
+  transition: height 0.25s ease-in;
+  width: 120px;
+  top: 55px;
+  border: none;
+  right: 80px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background: var(--gradient-light);
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#status-dropdown span{
+  display: flex;
+  padding: 5px 0;
+}
+
+#profile-dropdown a, #status-dropdown span{
+  font-size: 12px;
+  transition: all 0.25s ease-in;
+}
+
+#profile-dropdown a:hover, #status-dropdown span:hover{
+  background: var(--gradient);
+}
+
+.TopMain .profile{
+  border-radius: 50%;
+  width: 45px;
+  color: var(--color);
+  height: 45px;
+  background: var(--gradient-light);
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.25s ease-in;
+}
+
+.headerDiv{
+  height: 75px;
+  color: var(--color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul, ol { list-style: none; margin: 0; padding: 0; }
